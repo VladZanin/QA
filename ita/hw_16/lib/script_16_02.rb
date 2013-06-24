@@ -1,7 +1,7 @@
 # ========================================================================
 # Script 		=
 # ========================================================================
-# Description 	=	[ITA] Homework # 16 - Command-line Option
+# Description 	=	[ITA] Homework # 16_02 - Command-line Option
 # Name 			=	"Vlad Zanin"
 # Email 		=	"vladzanin@comcast.com"
 # ========================================================================
