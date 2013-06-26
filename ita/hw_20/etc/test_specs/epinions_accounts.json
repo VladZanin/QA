@@ -1,0 +1,104 @@
+{
+    "epinions_invalid_id":
+    [
+        {
+            "username" : "qa1000", "password" : "qa100qa"
+        },
+        {
+            "username" : "qa1001", "password" : "qa101qa"
+        },
+        {
+            "username" : "qa1002", "password" : "qa102qa"
+        },
+        {
+            "username" : "qa1003", "password" : "qa103qa"
+        },
+        {
+            "username" : "qa1004", "password" : "qa104qa"
+        },
+        {
+            "username" : "qa1005", "password" : "qa105qa"
+        },
+        {
+            "username" : "qa1006", "password" : "qa106qa"
+        },
+        {
+            "username" : "qa1007", "password" : "qa107qa"
+        },
+        {
+            "username" : "qa1008", "password" : "qa108qa"
+        },
+        {
+            "username" : "qa1009", "password" : "qa109qa"
+        }
+
+
+    ],
+    "epinions_invalid_password":
+    [
+        {
+            "username" : "qa100", "password" : "qa1000qa"
+        },
+        {
+            "username" : "qa101", "password" : "qa1011qa"
+        },
+        {
+            "username" : "qa102", "password" : "qa1022qa"
+        },
+        {
+            "username" : "qa103", "password" : "qa1033qa"
+        },
+        {
+            "username" : "qa104", "password" : "qa1044qa"
+        },
+        {
+            "username" : "qa105", "password" : "qa1055qa"
+        },
+        {
+            "username" : "qa106", "password" : "qa1066qa"
+        },
+        {
+            "username" : "qa107", "password" : "qa1077qa"
+        },
+        {
+            "username" : "qa108", "password" : "qa1088qa"
+        },
+        {
+            "username" : "qa109", "password" : "qa1099qa"
+        }
+
+    ],
+    "epinions_valid_accounts":
+    [
+        {
+            "username" : "qa100", "password" : "qa100qa"
+        },
+        {
+            "username" : "qa101", "password" : "qa101qa"
+        },
+        {
+            "username" : "qa102", "password" : "qa102qa"
+        },
+        {
+            "username" : "qa103", "password" : "qa103qa"
+        },
+        {
+            "username" : "qa104", "password" : "qa104qa"
+        },
+        {
+            "username" : "qa105", "password" : "qa105qa"
+        },
+        {
+            "username" : "qa106", "password" : "qa106qa"
+        },
+        {
+            "username" : "qa107", "password" : "qa107qa"
+        },
+        {
+            "username" : "qa108", "password" : "qa108qa"
+        },
+        {
+            "username" : "qa109", "password" : "qa109qa"
+        }
+    ]
+}
