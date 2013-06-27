@@ -1,0 +1,79 @@
+
+Epinions - Validate Epinions.com login on all listed servers.
+
+________________________________________________________________________________________________________________________
+Web Server: http://www.epinions.com
+________________________________________________________________________________________________________________________
+
+test_01
+
+Validations:
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa1001/qa100qa.
+ PASS: The user 'qa1001' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa1011/qa101qa.
+ PASS: The user 'qa1011' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa1022/qa102qa.
+ PASS: The user 'qa1022' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa1033/qa103qa.
+ PASS: The user 'qa1033' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa1044/qa104qa.
+ PASS: The user 'qa1044' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa1055/qa105qa.
+ PASS: The user 'qa1055' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa1066/qa106qa.
+ PASS: The user 'qa1066' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa1077/qa107qa.
+ PASS: The user 'qa1077' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa1088/qa108qa.
+ PASS: The user 'qa1088' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa1099/qa109qa.
+ PASS: The user 'qa1099' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+
+test_02
+
+Validations:
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa100/qa1000qa.
+ PASS: The user 'qa100' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa101/qa1011qa.
+ PASS: The user 'qa101' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa102/qa1022qa.
+ PASS: The user 'qa102' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa103/qa1033qa.
+ PASS: The user 'qa103' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa104/qa1044qa.
+ PASS: The user 'qa104' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa105/qa1055qa.
+ PASS: The user 'qa105' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa106/qa1066qa.
+ PASS: The user 'qa106' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa107/qa1077qa.
+ PASS: The user 'qa107' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa108/qa1088qa.
+ PASS: The user 'qa108' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa109/qa1099qa.
+ PASS: The user 'qa109' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+
+test_03
+
+Validations:
+ PASS: For Valid credentials, message 'qa100's Account' is displayed : qa100/qa100qa.
+ PASS: User 'qa100' has Logged In as text 'Sign Out' is displayed : qa100/qa100qa.
+ FAIL: For Valid credentials, message 'qa101's Account' is not displayed : qa101/qa101qa
+ PASS: User 'qa101' has Logged In as text 'Sign Out' is displayed : qa101/qa101qa.
+ FAIL: For Valid credentials, message 'qa102's Account' is not displayed : qa102/qa102qa
+ PASS: User 'qa102' has Logged In as text 'Sign Out' is displayed : qa102/qa102qa.
+ FAIL: For Valid credentials, message 'qa103's Account' is not displayed : qa103/qa103qa
+ PASS: User 'qa103' has Logged In as text 'Sign Out' is displayed : qa103/qa103qa.
+ FAIL: For Valid credentials, message 'qa104's Account' is not displayed : qa104/qa104qa
+ PASS: User 'qa104' has Logged In as text 'Sign Out' is displayed : qa104/qa104qa.
+ FAIL: For Valid credentials, message 'qa105's Account' is not displayed : qa105/qa105qa
+ PASS: User 'qa105' has Logged In as text 'Sign Out' is displayed : qa105/qa105qa.
+ FAIL: For Valid credentials, message 'qa106's Account' is not displayed : qa106/qa106qa
+ PASS: User 'qa106' has Logged In as text 'Sign Out' is displayed : qa106/qa106qa.
+ FAIL: For Valid credentials, message 'qa107's Account' is not displayed : qa107/qa107qa
+ PASS: User 'qa107' has Logged In as text 'Sign Out' is displayed : qa107/qa107qa.
+ FAIL: For Valid credentials, message 'qa108's Account' is not displayed : qa108/qa108qa
+ PASS: User 'qa108' has Logged In as text 'Sign Out' is displayed : qa108/qa108qa.
+ FAIL: For Valid credentials, message 'qa109's Account' is not displayed : qa109/qa109qa
+ PASS: User 'qa109' has Logged In as text 'Sign Out' is displayed : qa109/qa109qa.
+
