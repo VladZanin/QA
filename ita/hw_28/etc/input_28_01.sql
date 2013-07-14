@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS tbl (id INT PRIMARY KEY AUTO_INCREMENT, item VARCHAR(50));
+INSERT INTO tbl (item) VALUES ('apple');
+INSERT INTO tbl (item) VALUES ('banana');

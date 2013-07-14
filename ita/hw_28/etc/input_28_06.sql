@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS tbl (id INT PRIMARY KEY AUTO_INCREMENT, item VARCHAR(50));
+INSERT INTO tbl (item) VALUES ('2');
+INSERT INTO tbl (item) VALUES ('4');
+INSERT INTO tbl (item) VALUES ('6');
+INSERT INTO tbl (item) VALUES ('8');
+INSERT INTO tbl (item) VALUES ('10');
+INSERT INTO tbl (item) VALUES ('12');
